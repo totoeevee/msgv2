@@ -3,13 +3,13 @@
 	<head>
 		<title>Math Homework</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="icon" href="https://ssl.gstatic.com/classroom/favicon.png">
 		</head>
 	<body>
 	
 	<header>
-				<img class="logo" src="../images/msglogo.png"></img>
+				<img class="logo" src="images/msglogo.png"></img>
 	<nav>	
 		<ul>
         		<li class="nav"><a href="g@mes/g@mes.html"> G@mes! </a></li>
@@ -21,15 +21,18 @@
 	</nav>
 	</header>
 
-
-
-		<h1>Game Selection!</h1>
-		<h2></h2>		
+		
+		
+		<p> testewtwegwgwgweg </p>
+		
+		
+		<h1>Math Study Group</h1>
+		<h2>MSG</h2>		
 		
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<footer>
     		<ul>
-        		<li class="footer"><a href="../index.html"> Home </a></li>
+        		<li class="footer"><a href="index.html"> Home </a></li>
 				<li class="footer"> About </li>
 				<li class="footer"><a href="https://github.com/Cattn/msgv2"> Github </a></li>
 				<li class="footer"><a href="https://sites.google.com/stu.palmbeachschools.org/mathlearningcenter/home"> Main Site </a></li>
