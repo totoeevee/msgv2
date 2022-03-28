@@ -1,0 +1,21 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+li {
+	display: inline;
+	padding: 20px;
+}
+
+ul {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
