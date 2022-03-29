@@ -13,7 +13,7 @@
 	<nav>	
 		<ul>
         		<li class="nav"><a href="g@mes/g@mes.html"> G@mes! </a></li>
-				<li class="nav"> About </li>
+				<li class="nav"><a href="about/about.html"> About </a></li>
 				<li class="nav"><a href="https://github.com/Cattn/msgv2"> Github </a></li>
 				<li class="nav"><a href="https://sites.google.com/stu.palmbeachschools.org/mathlearningcenter/home"> Main Site </a></li>
 				<li class="nav"><a href="https://discord.gg/mathstudy"> Discord </a></li>
@@ -21,13 +21,10 @@
 	</nav>
 	</header>
 
-		
-		
-		<p> testewtwegwgwgweg </p>
-		
-		
+
+
 		<h1>Math Study Group</h1>
-		<h2>MSG</h2>		
+		<h3>MSGv2-beta Site</h3>		
 		
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<footer>
