@@ -12,6 +12,14 @@ function handleExecption(e){
 		var f = document.createElement("footer");
 		f.innerHTML = k["footer"];
 		document.body.appendChild(f);
+		if(k["banners"]!=undefined){
+			for(var i in k["banners"]){
+				var d = document.createElement("div");
+				d.classList.add("tp_bnr");
+				d.innerHTML = k["banners"][i];
+				h.prepend(d);
+			}
+		}
 	}catch(e){
 		handleExecption(e);
 	}
