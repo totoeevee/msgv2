@@ -13,6 +13,7 @@
 	<nav>	
 		<ul>
         		<li class="nav"><a href="../index.html"> Home! </a></li>
+				<li class="nav"><a href="../g@mes/g@mes.html"> G@mes! </a></li>	
 				<li class="nav"><a href="../about/about.html"> About </a></li>
 				<li class="nav"><a href="https://github.com/Cattn/msgv2"> Github </a></li>
 				<li class="nav"><a href="https://sites.google.com/stu.palmbeachschools.org/mathlearningcenter/home"> Main Site </a></li>
@@ -24,7 +25,7 @@
 
 
 		<h1>Game Selection!</h1>
-		<h2></h2>		
+		<p class="games"><a href="bskbros.html"> Basket Bros! </a></p>
 		
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<footer>
