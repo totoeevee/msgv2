@@ -85,3 +85,10 @@ footer ul{
 	display: block;
 	background-color: rgb(100,100,100);
 }
+
+.google {
+	display: block;
+	width: 70vw;
+    height: 70vh;
+	background-color: black;
+}

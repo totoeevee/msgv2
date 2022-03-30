@@ -18,7 +18,7 @@ if (!popup || popup.closed) {
 
   img.rel = "icon"
   img.href = "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png"
-  doc.title = "Google Drive"
+  doc.title = "Classes"
 
   iframe.src = location.href
   style.position = "fixed"
@@ -29,4 +29,16 @@ if (!popup || popup.closed) {
   doc.body.appendChild(iframe)
   location.replace("https://google.com")
     }
+}
+
+let iframe = document.getElementById('google');
+
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
 }

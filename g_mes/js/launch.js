@@ -30,3 +30,16 @@ if (!popup || popup.closed) {
   location.replace("https://google.com")
     }
 }
+
+let iframe = document.getElementById('google');
+var elem = document.getElementById("google");
+
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
