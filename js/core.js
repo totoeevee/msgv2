@@ -1,6 +1,6 @@
 function handleExecption(e){
 	console.error(e);
-	//more tba
+	//more -sooner or later
 };
 (async function(){
 	try{

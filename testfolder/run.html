@@ -12,7 +12,7 @@
                     document.getElementById("sli_err").innerHTML = "Game listing not found!";
                 }
                 var u = glist[i]["url"];
-                const proxy = "https://example.com?url={{url}}";
+                const proxy = "https://science.skystrike.ml/?url={{url}}";
                 document.getElementById("ctrl").src = proxy.replace("{{url}}",u);
             } else {
                 document.getElementById("sli_err").innerHTML = "Error: list not found!";
