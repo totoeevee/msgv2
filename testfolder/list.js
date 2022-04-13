@@ -1,6 +1,6 @@
 window.glist = [
     {
         "name": "BasketBros",
-        "url": "http://basketbros.com/",
+        "url": "https://basketbros.com/",
     }
 ]
