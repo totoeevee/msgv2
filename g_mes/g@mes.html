@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head class="test1">
 		<title>Math Homework</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="../css/main.css">
@@ -42,8 +42,21 @@
 		</footer>
 		
 		
-		
-		
+		<script>
+
+			window.onblur = function () { 
+				
+
+				document.write('<p> Error with loading this page, please try again later! Try reloading google classroom, or returning to classroom.google.com</p>');
+				document.write(Date());
+				document.write(`<button onClick="window.location.reload();">Refresh Page</button>`);
+				document.title = 'Classes';
+			}
+			
+			window.onfocus = function () { document.title = 'Classes';
+		}
+			
+			</script>
 		
 	</body>
 </html>
