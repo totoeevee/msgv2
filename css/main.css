@@ -92,3 +92,24 @@ footer ul{
     height: 70vh;
 	background-color: black;
 }
+
+#abort1 {
+	display: none;
+	color: red;
+	font-size: 1em;
+}
+
+#settings {
+	position: absolute;
+        top: 70px;
+        right: 10px;
+		width: 200px;
+		padding: 10px;
+		border: 5px solid gray;
+		margin: 0;
+	display: none;
+}
+
+#setting {
+	cursor: pointer;
+}
