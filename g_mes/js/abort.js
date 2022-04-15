@@ -5,7 +5,7 @@ function getValue() {
         window.onblur = function () { 
 				
 
-            window.location.replace('https://classroom.google.com/h');
+            window.parent.location.href('https://classroom.google.com/h');
              document.title = 'Classes';
          }
     } else {
@@ -33,5 +33,7 @@ function getValue() {
     } else {
       x.style.display = "block";
     }
+
+    document.getElementById("settings").innerHTML='<object type="text/html" data="../data/settings.html" ></object>';
 
  }
