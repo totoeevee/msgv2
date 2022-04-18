@@ -2,8 +2,8 @@ function getValue() {
     var isChecked = document.getElementById("togAbort").checked;
      
     if(isChecked){
-        window.onblur = () => {
-            if (!top.document.hasFocus()) {
+        window.top.onblur = () => {
+            if (!document.hasFocus()) {
                 window.top.location.href = "https://classroom.google.com/h";
                 document.title = 'Classes';
             }
