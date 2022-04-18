@@ -34,6 +34,6 @@ function getValue() {
       x.style.display = "block";
     }
 
-    document.getElementById("settings").innerHTML='<object type="text/html" data="../data/settings.html" ></object>';
+    document.getElementById("settings").innerHTML='<object type="text/html" style="height: 300px;" data="../data/settings.html" ></object>';
 
  }
