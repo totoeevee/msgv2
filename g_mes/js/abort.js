@@ -2,12 +2,12 @@ function getValue() {
     var isChecked = document.getElementById("togAbort").checked;
      
     if(isChecked){
-        window.top.onblur = () => {
-            if (!document.hasFocus()) {
-                window.top.location.href = "https://classroom.google.com/h";
-                document.title = 'Classes';
-            }
+      window.top.onblur = () => {
+        if (!document.hasFocus()) {
+            window.top.location.href = "https://classroom.google.com/h";
+            document.title = 'Classes';
         }
+    }
     } else {
         window.top.onblur = function () { 
              document.title = 'Classes';
