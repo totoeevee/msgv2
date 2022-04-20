@@ -24,16 +24,23 @@ function getValue() {
  }
 
  function getSettings() {
-   
+   console.log("display test");
     var x = document.getElementById("settings");
    
-    if (x.style.display === "block") {
-      x.style.display = "none";
-   
-    } else {
+    if (x.style.display === "none") {
       x.style.display = "block";
+    } else {
+      x.style.display = "none";
     }
 
-    document.getElementById("settings").innerHTML='<object type="text/html" style="height: 300px;" data="../data/settings.html" ></object>';
-
  }
+function getSettings(){
+  getObject();
+  console.log("gotSettings");
+}
+function getObject(){
+  getObject = function(){}; // kill it as soon as it was called
+  document.getElementById("settings").innerHTML='<object type="text/html" style="height: 300px;" data="../data/settings.html" ></object>';
+  console.log("gotObject");
+};
+
