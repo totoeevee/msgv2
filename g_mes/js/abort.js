@@ -1,7 +1,14 @@
 function getValue() {
     var isChecked = document.getElementById("togAbort").checked;
-     
+    var userChecked = 0;
+    
+
     if(isChecked){
+      userChecked = 1;
+      localStorage.setItem("userChecked", JSON.stringify(userChecked));
+      console.log(userChecked);
+      console.log("Is checked");
+
       window.top.onblur = () => {
         if (!document.hasFocus()) {
             window.top.location.href = "https://classroom.google.com/h";
@@ -9,6 +16,9 @@ function getValue() {
         }
     }
     } else {
+      userChecked = 0;
+      localStorage.setItem("userChecked", JSON.stringify(userChecked));
+      console.log(userChecked);
         window.top.onblur = function () { 
              document.title = 'Classes';
          }
@@ -16,11 +26,12 @@ function getValue() {
     var x = document.getElementById("abort1");
    
     if (x.style.display === "block") {
-      x.style.display = "block";
+      x.style.display = "none";
    
     } else {
       x.style.display = "block";
     }
+    
  }
 
  function getSettings() {
@@ -43,4 +54,5 @@ function getObject(){
   document.getElementById("settings").innerHTML='<object type="text/html" style="height: 300px;" data="../data/settings.html" ></object>';
   console.log("gotObject");
 };
+
 
