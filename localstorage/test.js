@@ -1,16 +1,23 @@
 //getting local storage value if checked or not
-var jsonString = localStorage.getItem("userChecked");
+let jsonString = localStorage.getItem("userChecked");
 
-var gotChecked = JSON.parse(jsonString);
+let gotChecked = JSON.parse(jsonString);
 console.log(gotChecked);
 // Seeing if it works
-if(gotChecked == 1){
+if(gotChecked == true){
     document.getElementById("togAbort").checked = true
     console.log("it equal 1");
+
+    window.top.onblur = () => {
+      if (!document.hasFocus()) {
+          window.top.location.href = "https://classroom.google.com/h";
+      }
+  }
 }
 
 if(gotChecked == 0){
     console.log("it equal 0");
+    document.title = 'Google';
 }
 // getting settings
 function getSettings(){

@@ -1,8 +1,7 @@
-function getValue() {
-    var isChecked = document.getElementById("togAbort").checked;
-    var userChecked = 0;
-    
+let userChecked = 0;
 
+function getValue() {
+  var isChecked = document.getElementById("togAbort").checked;
     if(isChecked){
       userChecked = 1;
       localStorage.setItem("userChecked", JSON.stringify(userChecked));
@@ -54,5 +53,3 @@ function getObject(){
   document.getElementById("settings").innerHTML='<object type="text/html" style="height: 300px;" data="../data/settings.html" ></object>';
   console.log("gotObject");
 };
-
-
