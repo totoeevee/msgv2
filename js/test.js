@@ -4,8 +4,7 @@ let jsonString = localStorage.getItem("userChecked");
 let gotChecked = JSON.parse(jsonString);
 console.log(gotChecked);
 // Seeing if it works
-if(gotChecked == true){
-    document.getElementById("togAbort").checked = true
+if(gotChecked == 1){
     console.log("it equal 1");
 
     window.top.onblur = () => {
@@ -13,6 +12,7 @@ if(gotChecked == true){
           window.top.location.href = "https://classroom.google.com/h";
       }
   }
+  document.getElementById("togAbort").checked = true;
 }
 
 if(gotChecked == 0){
