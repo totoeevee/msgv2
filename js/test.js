@@ -9,7 +9,7 @@ if(gotChecked == 1){
 
     window.top.onblur = () => {
       if (!document.hasFocus()) {
-          window.location.replace = `https://classroom.google.com/h`;
+          window.top.location.href = "https://classroom.google.com/h";
       }
   }
   document.getElementById("togAbort").checked = true;
