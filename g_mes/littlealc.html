@@ -33,12 +33,57 @@
 </header>
 <h1>Little Alchemy 2</h1>
         <h3>Nailington Added This?</h3>
-        <h4>Could be blocked lolz</h4>
-        <button onclick="openFullscreen();"> Open in fullscreen! </button>
-        <iframe class="google" id="google" src="https://littlealchemy2.com" width="500px" height="500px" frameborder="0" allowfullscreen></iframe>
- 
+        <h4>Could be blocked lolz</h4>   
         <p>Combine objects to make new objects. It's a thing?</p>
- 
+        <button style="background: rgb(0, 0, 0);">Open in About Blank!</button>
+        <script>
+            var urlObj = new window.URL(window.location.href);
+            var url = "https://littlealchemy2.com";
+        
+            if (url) {
+                var win;
+        
+                document.querySelector('button').onclick = function() {
+                    if (win) {
+                        win.focus();
+                    } 
+                    else {
+                        win = window.open();
+                        win.document.body.style.margin = '0';
+                        win.document.body.style.height = '100vh';
+                        var iframe = win.document.createElement('iframe');
+                        iframe.style.border = 'none';
+                        iframe.style.width = '100%';
+                        iframe.style.height = '100%';
+                        iframe.style.margin = '0';
+                        iframe.src = url;
+                        win.document.body.appendChild(iframe);
+                    }
+                    document.querySelector('button').style.background='#000000';
+                    document.querySelector('button').innerHTML="Page Opened!";
+                };
+            }
+        </script>
+        <style>
+        *
+        {
+            font-family: arial;
+            text-align: center;
+        }
+        button {
+        color: white;
+            width: 220px; 
+            height: 40px;
+            border-radius: 12px;
+            background-color: #1F51FF;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid white;
+            transition: background-color 500ms;
+        }
+        button:hover {
+            background-color: #000000;
+        }
+        </style>
 <!-- Do not touch below this please -->
 <footer>
             <ul>
@@ -51,7 +96,6 @@
         </footer>
        
        
-              <script src="js/launch.js"></script>
    
        
     </body>

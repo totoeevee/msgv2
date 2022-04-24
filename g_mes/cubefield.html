@@ -26,9 +26,55 @@
 
 		<h1>Cubefield!</h1>
         <h3>Made by kirkk16 on <a href="https://github.com/kirkk16" target="_blank" rel="noopener noreferrer">Github</a></h3>
-		<button onclick="openFullscreen();"> Open in fullscreen! </button>
-		<iframe class="google" id="google" src="https://kirkk16.github.io/cubefield/"></iframe>
-		
+		<button style="background: rgb(0, 0, 0);">Open In About Blank</button>
+<script>
+    var urlObj = new window.URL(window.location.href);
+    var url = "https://kirkk16.github.io/cubefield/";
+
+    if (url) {
+        var win;
+
+        document.querySelector('button').onclick = function() {
+            if (win) {
+                win.focus();
+            } 
+            else {
+                win = window.open();
+                win.document.body.style.margin = '0';
+                win.document.body.style.height = '100vh';
+                var iframe = win.document.createElement('iframe');
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.style.margin = '0';
+                iframe.src = url;
+                win.document.body.appendChild(iframe);
+            }
+            document.querySelector('button').style.background='#000000';
+            document.querySelector('button').innerHTML="Page Opened!";
+        };
+    }
+</script>
+<style>
+*
+{
+    font-family: arial;
+    text-align: center;
+}
+button {
+	color: white;
+    width: 220px; 
+    height: 40px;
+    border-radius: 12px;
+    background-color: #1F51FF;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    transition: background-color 500ms;
+}
+button:hover {
+    background-color: #000000;
+}
+</style>
 		
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<footer>
@@ -41,8 +87,6 @@
 			</ul>
 		</footer>
 		
-		
-		      <script src="js/launch.js"></script>
 		
 		
 	</body>
