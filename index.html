@@ -4,7 +4,11 @@
 		<title>Math Homework</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="icon" href="https://ssl.gstatic.com/classroom/favicon.png">
+		<link rel="stylesheet" type="text/css" href="css/cursor.css">
+        <script src="js/cursor.js"></script>
 		</head>
+		<div class="node" id="node"></div>
+    <div class="cursor" id="cursor"></div>
 	<body>
 		<h1>Math Study Group</h1>
 		<h3>MSGv2-beta Site</h3>
@@ -18,5 +22,19 @@
 		<p><a href="about/aborth.html">What is Abort?</a></p>
 		<p>Most settings will be located on the games page, and they are under construction so please keep that in mind when using them.</p>
 		<script src="/msgv2/js/core.js"></script>
+		<script>
+            var initCursor = new NodeCursor({
+                cursor: true,
+                node: true,
+                cursor_velocity: 1,
+                node_velocity: .5,
+                native_cursor: 'none',
+                element_to_hover: '.nodeHover',
+                cursor_class_hover: 'disable',
+                node_class_hover: 'expand',
+                hide_mode: true,
+                hide_timing: 2000,
+            });
+        </script>
 	</body>
 </html>

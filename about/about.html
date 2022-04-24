@@ -5,6 +5,8 @@
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="../css/main.css">
 		<link rel="icon" href="https://ssl.gstatic.com/classroom/favicon.png">
+		<link rel="stylesheet" type="text/css" href="../css/cursor.css">
+        <script src="../js/cursor.js"></script>
 		</head>
 	<body>
 	
@@ -21,7 +23,8 @@
 		</ul>
 	</nav>
 	</header>
-
+	<div class="node" id="node"></div>
+    <div class="cursor" id="cursor"></div>
 
 
 		<h1>About Math Study Group!</h1>
@@ -42,7 +45,20 @@
 			</ul>
 		</footer>
 		
-		
+		<script>
+            var initCursor = new NodeCursor({
+                cursor: true,
+                node: true,
+                cursor_velocity: 1,
+                node_velocity: .5,
+                native_cursor: 'none',
+                element_to_hover: '.nodeHover',
+                cursor_class_hover: 'disable',
+                node_class_hover: 'expand',
+                hide_mode: true,
+                hide_timing: 2000,
+            });
+        </script>
 		
 		
 		
