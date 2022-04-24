@@ -10,7 +10,7 @@ function getValue() {
 
       window.top.onblur = () => {
         if (!document.hasFocus()) {
-            window.top.location.href = "https://classroom.google.com/h";
+          window.location.replace = `https://classroom.google.com/h`;
             document.title = 'Classes';
         }
     }
