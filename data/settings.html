@@ -1,8 +1,15 @@
+<html>
 <div id="settings">
 <h1>Settings</h1>
 <div [hidden]="!ischecked"></div>
-        <label>
-            <input id="togAbort" type="checkbox" autocomplete="true" > Toggle Abort
+        <label class="container">
+            <input id="togAbort" type="checkbox" class="checkbox" autocomplete="true" > Toggle Abort </input>
+           <br>
+           <br>
+            <form id="doctitl" onsubmit="return false;" method="post">
+                Tab Name: <input type="text"> </form>
+            </input>
+
         </label>
          
           <br>
@@ -12,15 +19,18 @@
           <p id="abort1">Sucess! Your settings will be saved across all pages with a Settings option! Turn off, by unchecking and hitting submit.</p>
 <script src="../g_mes/js/abort.js"></script>
 <script src="../js/test.js"></script>
+<script src="../js/settings.js"></script>
 </div>
 
 <style>
+    @import url("https://fonts.googleapis.com/css?family=Aleo");
     body {
+        font-family: 'Aleo', serif;
+        color: #ada8b6;
+        background-image: url("../images/settings.jpg");
         overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    text-align: left;
-    height: 200px;
     }
 
     body::-webkit-scrollbar { /* WebKit */
@@ -30,12 +40,8 @@
 #settings {
 	text-align: center;
 	position: absolute;
-        top: 70px;
         right: 10px;
-		width: 200px;
-		padding: 10px;
-		border: 5px solid gray;
-		margin: 0;
+
 	display: block;
 }
 #abort1 {
@@ -43,6 +49,8 @@
     color: white;
     font-size: 12px;
 }
+
 </style>
 
 
+</html>

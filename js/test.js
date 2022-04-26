@@ -26,6 +26,6 @@ function getSettings(){
   }
   function getObject(){
     getObject = function(){}; // kill it as soon as it was called
-    document.getElementById("settings").innerHTML='<object type="text/html" style="height: 300px;" data="../data/settings.html" ></object>';
+    document.getElementById("settings").innerHTML='<object type="text/html" style="height: 250px; width: 250px;" data="../data/settings.html" ></object>';
     console.log("gotObject");
   };

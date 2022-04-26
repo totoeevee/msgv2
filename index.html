@@ -9,6 +9,24 @@
 		</head>
 		<div class="node" id="node"></div>
     <div class="cursor" id="cursor"></div>
+
+
+	<header>
+		<img class="logo" src="../images/msglogo.png"></img>
+<nav>	
+<ul>
+		<li class="nav"><a href="g_mes/g@mes.html"> G@mes! </a></li>	
+		<li class="nav"><a href="about/about.html"> About </a></li>
+		<li class="nav"><a href="https://github.com/Cattn/msgv2"> Github </a></li>
+		<li class="nav"><a href="https://sites.google.com/stu.palmbeachschools.org/mathlearningcenter/home"> Main Site </a></li>
+		<li class="nav"><a href="https://discord.gg/mathstudy"> Discord </a></li>
+		<li class="nav"><a onclick="getSettings()" id="setting"> Settings </a></li>
+</ul>
+</nav>
+</header>
+
+
+
 	<body>
 		<h1>Math Study Group</h1>
 		<h3>MSGv2-beta Site</h3>
@@ -21,7 +39,16 @@
 		<p><a href="localstorage/test.html">Test Local Storage</a></p>
 		<p><a href="about/aborth.html">What is Abort?</a></p>
 		<p>Most settings will be located on the games page, and they are under construction so please keep that in mind when using them.</p>
-		<script src="/msgv2/js/core.js"></script>
+		<div id="settings"></div>
+		
+		<script src="/g_mes/js/abort.js"></script>
+		<script src="js/test.js"></script>
+		<script src="js/settings.js"></script>
+		
+		
+		
+		
+		
 		<script>
             var initCursor = new NodeCursor({
                 cursor: true,
