@@ -1,2 +1,0 @@
-# cutmath
-math

@@ -1,2 +1,0 @@
-# cookiemath
-math
