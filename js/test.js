@@ -33,6 +33,7 @@ function getSettings(){
 
 //zoom in + out thanks Daggie Blanqx - Douglas Mwangi stack overflow.
 function zoomIn(){
+  alert("worked");
                 var body = document.querySelector("body");
                 var currWidth = body.clientWidth;
                 if(currWidth == 1000000){
@@ -42,6 +43,7 @@ function zoomIn(){
                 } 
             }
             function zoomOut(){
+                alert("worked");
                 var body = document.querySelector("body");
                 var currWidth = body.clientWidth;
                 if(currWidth == 500000){
