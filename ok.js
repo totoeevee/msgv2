@@ -162,4 +162,4 @@ function ettt() {
   document.querySelectorAll('canvas')[0].style.zIndex = "-1";
 }
 
-setTimeout(ett, 300);
+setTimeout(ettt, 300);
