@@ -157,3 +157,9 @@ tsParticles.load("particles-js", {
     "zindex":-1,
     "retina_detect": true
 });
+
+function ettt() {
+  document.querySelectorAll('canvas')[0].style.zIndex = "-1";
+}
+
+setTimeout(ett, 300);
