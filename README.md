@@ -14,5 +14,4 @@ Custom Cursor
 More soon!
 
 # Notes:
-Ignore the banner at the top of the first page/index.html
-If clicking links doesn't work, refresh the page, unknown cause to issue, please contact if you know.
+Tryna finish this but takin a while
