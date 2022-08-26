@@ -11,7 +11,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	
 		<link rel="icon" href="https://ssl.gstatic.com/classroom/favicon.png">
-		<link rel="stylesheet" type="text/css" href="../css/cursor.css">
         <script src="../js/cursor.js"></script>
 		<script defer="defer" src="https://cdn.jsdelivr.net/npm/tsparticles@1.39.2/tsparticles.min.js" integrity="sha256-FCz5ToEA27payrGYaVGRidiIA+68Z31TBXFzcIT1/gU=" crossorigin="anonymous"></script>
 		<link rel="prefetch" as="script" href="https://cdn.jsdelivr.net/npm/tsparticles@1.39.2/tsparticles.pathseg.min.js">
@@ -19,19 +18,39 @@
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="stylesheet" type="text/css" href="../css/search.css">
 
 		</head>
 	<body>
 		<div id="particles-js" class="fullwidth">
 		</div>
 	
-		<div class="node" id="node"></div>
-    <div class="cursor" id="cursor"></div>
 		<h1 class="games">Game Selection!</h1>
 		<h3 class="games">All Games will launch in about:blank, with more selections then!</h3>
 		<h4 class="games">About:blank is hidden from GoGuardian*</h4>
 		<h1 class="games">Local Games (Unblocked)</h1>
 		<br>
+
+<input type="text" id="search1" onkeyup="searchBar()" placeholder="Search for games..">
+
+<ul id="searchGames">
+  <li><p class="games"><a href="cutmath/index.html"> Cut the Rope </a></p></li>
+  <li><p class="games"><a href="slope/index.html"> Slope </a></p></li>
+
+  <li><p class="games"><a href="dino/index.html"> Dinosaur Game </a></p></li>
+  <li><p class="games"><a href="ctrtt/index.html"> Cut The Rope 2 </a></p></li>
+
+  <li><p class="games"><a href="cookiemath/index.html">Cookie Clicker (Broken!)</a></p></li>
+  <li><p class="games"><a href="dond/index.html">Deal Or No Deal</a></p></li>
+  <li><p class="games"><a href="ducklife1/index.html">Duck Life 1</a></p></li>
+  <li><p class="games"><a href="impossiblequiz1/index.html">Impossible Quiz</a></p></li>
+  <li><p class="games"><a href="superhot/index.html">Superhot (Fixed!)</a></p></li>
+  <li><p class="games"><a href="eagler-single/index.html">Minecraft Beta Singleplayer</a></li>
+  <li><p class="games"><a href="flappy-math/index.html">Flappy 2048</a></p></li>
+  <li><p class="games"><a href="msfs/index.html">Microsoft Flight Sim</a></p></li>
+</ul>
+<p class="warning"></p>
+		<!--
 		<p class="games"><a href="cutmath/index.html"> Cut the Rope </a></p>
 		<p class="games"><a href="slope/index.html"> Slope </a></p>
 		<p class="games"><a href="dino/index.html"> Dinosaur Game </a></p>
@@ -44,39 +63,15 @@
 		<p class="games"><a href="eagler-single/index.html">Minecraft Beta Singleplayer</a></p>
 		<p class="games"><a href="flappy-math/index.html">Flappy 2048</a></p>
 		<p class="games"><a href="msfs/index.html">Microsoft Flight Sim</a></p>
+		-->
+		<p style="text-align: center;">Please note that you cannot set any new settings while viewing from google sites.</p>
 		
-		<div id="settings"></div>
 
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<footer>
-    		<ul>
-        		<li class="footer"><a href="../index.html"> Home </a></li>
-				<li class="footer"><a href="../about/about.html"> About </a></li>
-				<li class="footer"><a href="https://github.com/Cattn/msgv2"> Github </a></li>
-				<li class="footer"><a href="https://sites.google.com/stu.palmbeachschools.org/mathlearningcenter/home"> Main Site </a></li>
-				<li class="footer"><a href="https://discord.gg/mathstudy"> Discord </a></li>
-			</ul>
 		</footer>
 		<script src="js/abort.js"></script>
 		<script src="../js/test.js"></script>
 		<script src="../js/settings.js"></script>
-		<script>
-            var initCursor = new NodeCursor({
-                cursor: true,
-                node: true,
-                cursor_velocity: 1,
-                node_velocity: .5,
-                native_cursor: 'none',
-                element_to_hover: '.nodeHover',
-                cursor_class_hover: 'disable',
-                node_class_hover: 'expand',
-                hide_mode: true,
-                hide_timing: 2000,
-            });
-        </script>
-			<script>
-				AOS.init();
-			</script>
+		<script src="../js/search.js"></script>
 				
 		<script defer="defer" src="../ok.js"></script>
 	</body>

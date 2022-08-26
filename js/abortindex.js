@@ -5,7 +5,6 @@ function getValue() {
     if(isChecked){
       userChecked = 1;
       localStorage.setItem("userChecked", JSON.stringify(userChecked));
-      console.log(userChecked);
       console.log("Is checked");
 
       window.top.onblur = () => {
@@ -17,7 +16,6 @@ function getValue() {
     } else {
       userChecked = 0;
       localStorage.setItem("userChecked", JSON.stringify(userChecked));
-      console.log(userChecked);
         window.top.onblur = function () { 
              document.title = 'Classes';
          }
@@ -34,7 +32,6 @@ function getValue() {
  }
 
  function getSettings() {
-   console.log("display test");
     var x = document.getElementById("settings");
    
     if (x.style.display === "none") {
