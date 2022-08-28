@@ -1,0 +1,85 @@
+.section-heading {
+    text-align:center;
+    color:#9b8d9a;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+/* Tiles */
+  .column-4 {
+    float: left;
+    width: 21%;
+    padding: 10px;
+    margin:20px;
+    height: 250px;
+    margin-left: 30px;
+  }
+
+
+/* Tile Content */
+  .project-1 { /* ctr 1 */
+    background: url('../images/ctr1.png');
+    background-size: cover;
+  }
+  
+  .project-2 { /* ctr 2 */
+    background: url('../images/ctrtt.png');
+    background-size: cover;
+  }
+  
+  .project-3 { /* dino game */
+    background: url('../images/dino.jpg');
+    background-size: cover;
+  }
+  
+  .project-4 { /* slope game */
+    background: url('../images/slope-game.jpg');
+    background-size: cover;
+  }
+  
+  .project-5 { /* cookie game */
+    background: url('../images/cookie.png');
+    background-size: cover;
+  }
+  
+  .project-6 { /* deal or no deal game */
+    background: url('../images/dealorno.jpg');
+    background-size: cover;
+  }
+  
+  .project-7 {
+    background: url('../images/duckl.png');
+    background-size: cover;
+  }
+  
+  .project-8 {
+    background: url('../images/minec.png');
+    background-size: cover;
+  }
+
+  .project-text-1 {
+    font-size:20px;
+    text-shadow: #1f1e1f 2px 2px 2px;
+    color: #d4d3d4;
+  }
+
+  .project-text-2 {
+    font-size:20px;
+    text-shadow: #dddddd 3px 3px 3px;
+    color: #1c1b1c;
+  }
+  
+
+  /* Blur-zoom Container */
+.img-hover-zoom--blur {
+    transition: transform 0.3s, filter 0.5s ease-in-out;
+    filter: blur(2px);
+    transform: scale(1.05);
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--blur:hover {
+    filter: blur(0);
+    transform: scale(1);
+  }
