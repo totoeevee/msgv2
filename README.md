@@ -1,6 +1,6 @@
-## MSG WEB! STATIC
+## MSGweb static site
 
-# Feel free to fork this repo and deploy your own link, we only ask that credit is given.
+## Feel free to fork this repo and deploy your own link, we only ask that credit is given.
 
 # CURRENT ISSUES:
 Lack of Games displayed
