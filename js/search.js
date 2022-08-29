@@ -13,6 +13,7 @@ function searchBar() {
     txtValue = a.textContent || a.innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
       li[i].style.display = "";
+      ul.style.display = "block";
       warning.innerHTML = '';
     } else {
       li[i].style.display = "none";
@@ -20,6 +21,9 @@ function searchBar() {
     }
    if (warning.innerHTML === "No search Results foundNo search Results found") {
       warning.innerHTML = "No search Results found";
+    }
+  if (txtValue.toUpperCase().indexOf(filter) === 0) {
+      li[i].style.display = "none";
     }
   }
 }

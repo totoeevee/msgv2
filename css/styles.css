@@ -5,7 +5,6 @@
     margin-top: 10px;
     margin-bottom: 30px;
     font-size: 35px;
-    display: relative;
   }
 /* Tiles */
   .column-4 {
@@ -113,3 +112,4 @@
     float: right;
     margin-right: 5px;
   }
+  
