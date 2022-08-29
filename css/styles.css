@@ -5,6 +5,7 @@
     margin-top: 10px;
     margin-bottom: 30px;
     font-size: 35px;
+    display: relative;
   }
 /* Tiles */
   .column-4 {
@@ -13,7 +14,6 @@
     padding: 10px;
     margin:20px;
     height: 250px;
-    margin-left: 30px;
   }
 
 
@@ -107,4 +107,8 @@
   background: rgba(0, 0, 0, 0.5) !important; /* Black background with 0.5 opacity */
   width: 100% !important; /* Full width */
   padding: 20px !important; /* Some padding */
+  }
+
+  .filter {
+    float: right;
   }
