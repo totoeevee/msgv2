@@ -21,41 +21,70 @@
   .project-1 { /* ctr 1 */
     background: url('../images/ctr1.png');
     background-size: cover;
+    border-radius: 5%;
   }
   
   .project-2 { /* ctr 2 */
     background: url('../images/ctrtt.png');
     background-size: cover;
-  }
+    border-radius: 5%;
+    }
   
   .project-3 { /* dino game */
     background: url('../images/dino.jpg');
     background-size: cover;
-  }
+    border-radius: 5%;
+    }
   
   .project-4 { /* slope game */
     background: url('../images/slope-game.jpg');
     background-size: cover;
-  }
+    border-radius: 5%;
+    }
   
   .project-5 { /* cookie game */
     background: url('../images/cookie.png');
     background-size: cover;
-  }
+    border-radius: 5%;
+    }
   
   .project-6 { /* deal or no deal game */
     background: url('../images/dealorno.jpg');
     background-size: cover;
-  }
+    border-radius: 5%;
+    }
   
   .project-7 {
     background: url('../images/duckl.png');
     background-size: cover;
-  }
+    border-radius: 5%;
+    }
   
   .project-8 {
     background: url('../images/minec.png');
     background-size: cover;
+    border-radius: 5%;
+    }
+
+  
+  
+
+  /* Blur-zoom Container */
+.img-hover-zoom--blur {
+    transition: transform 0.1s, filter 0.1s ease-in-out;
+    filter: blur(0.5px);
+    transform: scale(1.01);
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--blur:hover {
+    filter: blur(0);
+    transform: scale(1);
+  }
+
+  .star {
+    align-items: center;
+    width: 20px;
   }
 
   .project-text-1 {
@@ -78,23 +107,4 @@
   background: rgba(0, 0, 0, 0.5) !important; /* Black background with 0.5 opacity */
   width: 100% !important; /* Full width */
   padding: 20px !important; /* Some padding */
-  }
-  
-
-  /* Blur-zoom Container */
-.img-hover-zoom--blur {
-    transition: transform 0.3s, filter 0.3s ease-in-out;
-    filter: blur(1.1px);
-    transform: scale(1.05);
-  }
-  
-  /* The Transformation */
-  .img-hover-zoom--blur:hover {
-    filter: blur(0);
-    transform: scale(1);
-  }
-
-  .star {
-    align-items: center;
-    width: 20px;
   }
