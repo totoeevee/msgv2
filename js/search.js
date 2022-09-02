@@ -22,8 +22,5 @@ function searchBar() {
    if (warning.innerHTML === "No search Results foundNo search Results found") {
       warning.innerHTML = "No search Results found";
     }
-  if (txtValue.toUpperCase().indexOf(filter) === 0) {
-      li[i].style.display = "none";
-    }
   }
-}
+  }

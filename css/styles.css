@@ -65,11 +65,34 @@
     border-radius: 5%;
     }
 
-    .project-9 {
+.project-9 {
       background: url('../images/Idle-Dice.jpg');
       background-size: cover;
       border-radius: 5%;
       }
+.project-10 {
+      background: url('../images/impossq.png');
+      background-size: cover;
+      border-radius: 5%;
+      }
+.project-11 {
+      background: url('../images/superhot.jpg');
+      background-size: cover;
+      border-radius: 5%;
+}
+.project-12 {
+  background: url('../images/flappy20.png');
+  background-size: cover;
+  border-radius: 5%;
+}
+.project-13 {
+  background: url('../images/msfs1jpg.jpg');
+  background-size: cover;
+  border-radius: 5%;
+}
+
+
+    
   
 
   
