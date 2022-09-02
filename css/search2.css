@@ -14,7 +14,7 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: none;
+    display: block;
   }
   
   #searchGames li a:hover:not(.header) {
