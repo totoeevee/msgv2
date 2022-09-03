@@ -142,4 +142,11 @@
     float: right;
     margin-right: 5px;
   }
-  
+
+  .projects-1 {
+    background-color:#F9F7F7;
+    border-radius: 5%;
+  }
+  .projects-1:hover {
+    background-color:#FEDE00;
+  }
