@@ -12,6 +12,7 @@
     width: 21%;
     padding: 10px;
     margin:20px;
+    margin-bottom: 50px;
     height: 250px;
   }
 
@@ -92,9 +93,12 @@
 }
 
 
-    
-  
+/* GBA Games and other image-less games */
 
+.projects-1 {
+  background-color: #f9f7f7;
+  border-radius: 5%;
+}
   
   
 
