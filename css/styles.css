@@ -93,13 +93,6 @@
 }
 
 
-/* GBA Games and other image-less games */
-
-.projects-1 {
-  background-color: #f9f7f7;
-  border-radius: 5%;
-}
-  
   
 
   /* Blur-zoom Container */
@@ -147,10 +140,19 @@
     margin-right: 5px;
   }
 
+
   .projects-1 {
+    background: url('../images/Ruffle_Logo.webp');
     background-color:#F9F7F7;
     border-radius: 5%;
+    background-position: center;
+    background-size: contain;
   }
-  .projects-1:hover {
-    background-color:#FEDE00;
-  }
+
+  .projects-2 {
+    background: url('../images/GameBoyAdvance_Logo.png');
+    background-color: #f9f7f7;
+    border-radius: 5%;
+    background-position: center;
+    background-size: contain;
+  } 
