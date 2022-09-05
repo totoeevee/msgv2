@@ -115,25 +115,16 @@
 
   .project-text-1 {
     font-size:20px;
-    color: #d4d3d4;
+    color: #fff6d6;
     text-align: center !important;
     margin-top: 200px !important;
     background: rgb(0, 0, 0) !important; /* Fallback color */
   background: rgba(0, 0, 0, 0.5) !important; /* Black background with 0.5 opacity */
   width: 100% !important; /* Full width */
   padding: 20px !important; /* Some padding */
+  border-radius: 3%;
   }
 
-  .project-text-2 {
-    font-size:20px;
-    color: #d4d3d4;
-    text-align: center !important;
-    margin-top: 200px !important;
-    background: rgb(0, 0, 0) !important; /* Fallback color */
-  background: rgba(0, 0, 0, 0.5) !important; /* Black background with 0.5 opacity */
-  width: 100% !important; /* Full width */
-  padding: 20px !important; /* Some padding */
-  }
 
   .filter {
     float: right;
