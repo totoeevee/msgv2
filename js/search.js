@@ -24,3 +24,17 @@ function searchBar() {
     }
   }
   }
+
+
+function gbaToggle() {
+  console.log("testgba");
+    const gba = document.getElementById("gbafilt");
+    if (gba.style.display === "block") {
+      gba.style.display = "none";
+    }
+    else {
+      gba.style.display = "block";
+    }
+
+      
+}

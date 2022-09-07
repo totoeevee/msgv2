@@ -12,6 +12,7 @@
     width: 21%;
     padding: 10px;
     margin:20px;
+    margin-bottom: 50px;
     height: 250px;
   }
 
@@ -90,12 +91,12 @@
   background-size: cover;
   border-radius: 5%;
 }
+.project-14 {
+  background: url('../images/wordle.png');
+  background-size: cover;
+  border-radius: 5%;
+}
 
-
-    
-  
-
-  
   
 
   /* Blur-zoom Container */
@@ -118,35 +119,70 @@
 
   .project-text-1 {
     font-size:20px;
-    color: #d4d3d4;
+    color: #fff6d6;
     text-align: center !important;
     margin-top: 200px !important;
     background: rgb(0, 0, 0) !important; /* Fallback color */
   background: rgba(0, 0, 0, 0.5) !important; /* Black background with 0.5 opacity */
   width: 100% !important; /* Full width */
   padding: 20px !important; /* Some padding */
+  border-radius: 3%;
   }
 
-  .project-text-2 {
-    font-size:20px;
-    color: #d4d3d4;
-    text-align: center !important;
-    margin-top: 200px !important;
-    background: rgb(0, 0, 0) !important; /* Fallback color */
-  background: rgba(0, 0, 0, 0.5) !important; /* Black background with 0.5 opacity */
-  width: 100% !important; /* Full width */
-  padding: 20px !important; /* Some padding */
-  }
 
   .filter {
     float: right;
     margin-right: 5px;
   }
 
+
   .projects-1 {
+    background: url('../images/Ruffle_Logo.webp');
     background-color:#F9F7F7;
     border-radius: 5%;
+    background-position: center;
+    background-size: contain;
   }
-  .projects-1:hover {
-    background-color:#FEDE00;
-  }
+
+  .projects-2 {
+    background: url('../images/GameBoyAdvance_Logo.png');
+    background-color: #f9f7f7;
+    border-radius: 5%;
+    background-position: center;
+    background-size: contain;
+  } 
+
+.filterbar {
+  display: inline-block;
+}
+
+/* CSS */
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
