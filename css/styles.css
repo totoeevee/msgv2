@@ -96,7 +96,11 @@
   background-size: cover;
   border-radius: 5%;
 }
-
+.project-15 {
+  background: url('../g_mes/paperclips/paperclips/Universal_Paperclips_files/mobile-title.png');
+  background-size: cover;
+  border-radius: 5%;
+}
   
 
   /* Blur-zoom Container */
