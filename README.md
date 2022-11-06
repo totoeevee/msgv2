@@ -15,8 +15,6 @@ Many
 Tryna finish this but takin a while
 
 
-
-
 # License stuff 
 
 Copyright [2022] [Math Study]

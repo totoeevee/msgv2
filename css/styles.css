@@ -1,10 +1,19 @@
+@import url('https://fonts.cdnfonts.com/css/baloo-da');
+
 .section-heading {
     text-align:center;
     color:#9b8d9a;
     text-decoration: underline;
     margin-top: 10px;
+    font-family: 'Baloo Da';
     margin-bottom: 30px;
-    font-size: 35px;
+    font-size: 48px;
+  }
+
+  .center {
+    float: center;
+    text-align: center;
+    justify-content: center;
   }
 /* Tiles */
   .column-4 {
